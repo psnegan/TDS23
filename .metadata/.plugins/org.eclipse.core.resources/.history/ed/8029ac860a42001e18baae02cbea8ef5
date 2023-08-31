@@ -1,0 +1,25 @@
+
+
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class ConectaBanco {
+
+	public static void main(String[] args) {
+		connection con;
+		Statement stmt;
+		String Query = "select *from tbl_Livro"
+		try {
+           class.ForName("microsoft.jdbc.sqlserver.SQLServerDriver");
+           
+        }catch(ClassNotFoundException e){
+           System.err.println("ClassNotFounException");
+        }
+        return con;
+		
+				
+
+	}
+
+}

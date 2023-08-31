@@ -1,0 +1,11 @@
+
+public class ConnectionFactory {
+	public Connection getConexao() {
+		Connection conexao=null;
+		
+		
+	}
+	
+	
+
+}

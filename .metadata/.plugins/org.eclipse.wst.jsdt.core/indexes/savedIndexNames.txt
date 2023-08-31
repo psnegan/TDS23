@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Users\3276.343\Documents\TDS23\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+303710296.index
+3495826916.index
+2432240775.index
+1069515353.index
+1035183686.index
+1731744051.index
+1317206269.index
+639057048.index

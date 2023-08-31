@@ -1,0 +1,25 @@
+
+package br.com.biblioteca.conexao;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class ConectaBanco {
+
+	public static void main(String[] args) {
+		connection con;
+		Statement stmt;
+		try {
+            con = DriverManager.getConnection("jdbc:sqlserver://D9995NE071:1433;database=db_Bibliotecas;user=sa;password=TecInfo;encrypt=true;trustServerCertificate=true");
+           
+           
+        }catch(SQLException e){
+           System.out.println(e.getMessage());
+        }
+        return con;
+		
+				
+
+	}
+
+}

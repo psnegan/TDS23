@@ -1,0 +1,16 @@
+
+public class Usuario {
+	
+	protected int id;
+	protected String name;
+	protected String email;
+	protected String pais;
+	public void Usuario() {}
+	public Usuario(String name, String email, String pais) {
+		super();
+		this.name = name;
+		this.email = email;
+		this.pais = pais;
+	}
+
+}

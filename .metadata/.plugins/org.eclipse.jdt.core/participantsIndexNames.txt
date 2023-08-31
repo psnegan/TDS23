@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+C:\Users\3276.343\Documents\TDS23\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3130317157.index
+\Cliente1\src\main\java
+C:\Users\3276.343\Documents\TDS23\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3516109208.index
+\Cliente1\src\main\java
+C:\Users\3276.343\Documents\TDS23\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\49567303.index
+\EscolaFull2\src\main\java

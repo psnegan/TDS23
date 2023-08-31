@@ -1,0 +1,13 @@
+
+public class ConectaBanco {
+
+	public static void main(String[] args) {
+		connection con;
+		Statement stmt;
+		
+		
+				
+
+	}
+
+}

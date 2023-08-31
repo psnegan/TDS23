@@ -1,0 +1,38 @@
+
+
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class ConectaBanco {
+
+	public static void main(String[] args) {
+		connection con;
+		Statement stmt;
+		String Query = "select *from tbl_Livro"
+		try {
+           class.ForName("microsoft.jdbc.sqlserver.SQLServerDriver");
+           
+        }catch(ClassNotFoundException e){
+           System.err.println("ClassNotFounException");
+           System.err.println(e.getMessage());
+        }
+       
+        
+		
+				
+
+	}
+	 try {
+         con = DriverManager.getConnection("jdbc:sqlserver://D9995NE071:1433;database=db_Bibliotecas;user=sa;password=TecInfo;encrypt=true;trustServerCertificate=true");
+        
+        
+     }catch(SQLException e){
+        System.out.println(e.getMessage());
+     }
+     return con;
+
+}
